@@ -16,8 +16,3 @@ export type ProductsListProps = {
     products: Product[];
     onProductClick: (product: Product) => void;
 };
-
-export type ModalProps = {
-    onClose: () => void;
-    children: React.ReactNode;
-};

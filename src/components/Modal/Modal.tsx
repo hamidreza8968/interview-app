@@ -1,4 +1,4 @@
-import {ModalProps} from "../../types/types.ts";
+import {ModalProps} from "./Modal.types.ts";
 import {ModalBackground, ModalContainer, CloseButton} from './Modal.styles.ts';
 
 

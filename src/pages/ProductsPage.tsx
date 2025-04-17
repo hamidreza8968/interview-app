@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import ProductsList from '../components/ProductsList/ProductsList.tsx';
+import ProductsList from '../components/Products/ProductsList/ProductsList.tsx';
 import products from '../assets/data/products.json';
-import { Product } from '../types/types.ts';
+import { Product } from '../components/Products/ProductItem.types.ts';
 import Modal from '../components/Modal/Modal.tsx';
 import IconList from '../assets/icons/iconList.ts';
-import ProductItem from "../components/ProductItem/ProductItem.tsx";
+import ProductItem from "../components/Products/ProductItem/ProductItem.tsx";
 
 const ProductsPage = () => {
     const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
