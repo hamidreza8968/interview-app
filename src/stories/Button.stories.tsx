@@ -27,7 +27,7 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const ButtonStory: Story = {
+export const DefaultButton: Story = {
     args: {
         children: 'Click me!',
         color: Theme.primary,
